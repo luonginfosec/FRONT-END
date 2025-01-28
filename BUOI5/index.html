@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .header {
+            position: sticky;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: orange;
+        }
+
+        .box-1 {
+            width: 150px;
+            height: 150px;
+            overflow: auto;
+            background-color: red;
+        }
+
+        .parent .child {
+            color: red;
+        }
+
+        a:link {
+            color: yellow;
+        }
+
+        a:visited {
+            color: brown;
+        }
+
+        a:hover {
+            background-color: orange;
+        }
+
+        .box::before {
+            content: "Nội dung đằng trước 1 ";
+        }
+
+        .box::after {
+            content: "Nội dung đằng sau 1"
+        }
+
+        .box-contact::before {
+            font-family: "Font Awesome 6 Free";
+            font-weight: 100;
+            content: "\f058";
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            text-align: center;
+            display: inline-block;
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header class="header">Header</header>
+    <div class="box-1">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque perspiciatis non adipisci dolore magnam ratione
+        error. Nulla, nemo animi porro laboriosam assumenda voluptates consequatur. Aspernatur laudantium omnis in ab
+        corrupti.
+    </div>
+    <!-- static -->
+    <!-- relative -->
+    <!-- absolute -->
+    <!-- fixed -->
+    <!-- sticky -->
+    <!-- adjacent sibling selectors bộ chọn anh chị em liền kề vd tag01 + tag02, tag02 phải cùng cấp và phải kề ngay sau phần tử tag01-->
+    <!-- general sibling selectors bộ chọn anh chị em chung tag01~tag02 chọn tất cả phần tử tag02 phải nằm sau phần tử tag01 -->
+    <!-- child selectos tag01>tag02 chọn tất cả phần tử tag02 là con cấp 1 của phần tử tag01 -->
+    <!-- descendant selectors bộ chọn hậu huệ chọn tất cả các phần tử tag02 nằm trong tag01 vd tag01 tag02 -->
+    <!-- pseudo-class selectors bộ chọn lớp giả -->
+    <!-- 
+        selector:pseudo-class{
+            property: value;
+        }
+    -->
+    <!-- pseudo-element selectors bộ chọn phần tử giả
+
+    -->
+    <div class="parent">
+        <div class="child">
+            Nội dung 1
+        </div>
+        <div class="child">
+            Nội dung 2
+        </div>
+        <div class="child">
+            Nội dung 3
+        </div>
+    </div>
+
+    <a href="https://www.google.com.vn/?hl=vi" target="_blank">Truy cập Google</a>
+
+    <div class="box">
+        Nội dung 1
+    </div>
+
+    <div class="box-contact">
+
+        <span>+84974835043</span>
+    </div>
+</body>
+
+</html>
