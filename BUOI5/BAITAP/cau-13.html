@@ -18,18 +18,10 @@
             box-sizing: border-box;
         }
 
-        .title {
-            font-size: 36px;
-            font-weight: 700;
-            color: #192335;
-            margin-top: 0;
-            margin-bottom: 20px;
-        }
-
         .form {
             font-family: "Be Vietnam Pro", sans-serif;
-            border: 1px solid #eeeeee;
             width: 550px;
+            border: 1px solid #ececec;
             border-radius: 10px;
             padding: 40px;
             margin-bottom: 30px;
@@ -39,12 +31,12 @@
             width: 100%;
             height: 60px;
             border: 0;
-            background-color: #F5F5F5;
             margin-bottom: 30px;
             padding: 10px 20px;
             border-radius: 8px;
-            outline: none;
             font-size: 16px;
+            background-color: #F5F5F5;
+            outline: none;
         }
 
         .form input[type="checkbox"] {
@@ -55,12 +47,25 @@
         .form button {
             width: 100%;
             height: 60px;
-            font-size: 16px;
-            font-weight: 600;
-            color: #ffffff;
-            background-color: #525fe1;
+            outline: none;
             border: 0;
             border-radius: 8px;
+            color: #ffffff;
+            background-color: #525fe1;
+            font-size: 16px;
+            font-weight: 600;
+        }
+
+        .form button:hover {
+            background-color: #231F40;
+        }
+
+        .title {
+            font-size: 36px;
+            font-weight: 700;
+            color: #192335;
+            margin-top: 0;
+            margin-bottom: 20px;
 
         }
     </style>
@@ -71,17 +76,17 @@
     <p><strong>Yêu cầu</strong>: Sử dụng HTML và CSS để dựng khối bên dưới (Dùng font Be Vietnam Pro).</p>
     <div class="form">
         <h2 class="title">Login</h2>
-        <form action="https://www.w3schools.com/action_page.php" target="_blank">
+        <form action="https://www.w3schools.com/action_page.php">
             <input type="email" name="email" placeholder="Email">
             <input type="password" name="password" placeholder="Password">
-            <input type="checkbox" name="remember_me" id="rememberMe">
-            <label for="rememberMe">Remember Me</label>
+            <input type="checkbox" name="rememberMe" id="rememberMe">
+            <label for="rememberMe">Remember me</label>
             <button type="submit">Login</button>
         </form>
     </div>
     <div class="form">
         <h2 class="title">Register</h2>
-        <form action="https://www.w3schools.com/action_page.php" target="_blank">
+        <form action="https://www.w3schools.com/action_page.php">
             <input type="text" name="full_name" placeholder="Full Name">
             <input type="email" name="email" placeholder="Email">
             <input type="password" name="password" placeholder="Password">

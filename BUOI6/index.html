@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .content{
+            background-color: #2873bd;
+            padding: 60px 30px;
+            border-radius: 8px;
+            position: relative;
+            overflow: hidden;
+        }
+        .content::before{
+            display: block;
+            content: "";
+            width: 120px;
+            height: 120px;
+            background-color: #000000eb;
+            position: absolute;
+            border-radius: 50%;
+            left: 20px;
+            top: 20px;
+            opacity: 0.5;
+        }
+        .content::after{
+            display: block;
+            content: "";
+            width: 250px;
+            height: 250px;
+            background-color: #060606eb;
+            position: absolute;
+            border-radius: 50%;
+            right: -50px;
+            bottom: -50px;
+            opacity: 0.5;
+        }
+        .content .inner-content {
+            position: relative;
+            color: #ffffff;
+            z-index: 1;
+        }
+        .content .inner-content::first-letter{
+            font-size: 40px;
+        }
+        .content .inner-content::first-line {
+            text-transform: uppercase;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div class="content">
+        <div class="inner-content">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo cum praesentium illo in obcaecati necessitatibus fugit aspernatur ab! Repellat eos nisi veritatis animi pariatur eius explicabo asperiores molestiae? Provident, esse.
+            Quia perspiciatis officia quos nulla vel incidunt commodi voluptatum quidem aut, adipisci ad quam, natus ducimus? Totam, quasi aliquid. Minima non illum qui explicabo animi ratione, mollitia quod voluptates amet?
+            Dolorum deserunt facilis fuga! Iusto fugiat nobis laborum provident eius ducimus accusamus officia beatae quaerat neque, ut nihil praesentium quibusdam hic. Necessitatibus corporis, repudiandae odit aperiam deleniti sed reiciendis nostrum!
+            Magni fugit ipsum consequatur numquam! Facere mollitia necessitatibus cumque autem perspiciatis molestiae, fugiat fugit. Blanditiis atque nostrum hic doloribus, vel odio tempora aspernatur odit, velit sequi veniam nulla cum nobis.
+            Numquam ex eius dolorum quam ut excepturi cum aliquam, voluptatibus iure quisquam odit beatae ratione? Autem, accusantium ab placeat tempore delectus adipisci vero ex ea repellendus distinctio, quia obcaecati voluptates.
+            Est cumque hic velit odit dolore consequuntur fuga, perferendis blanditiis veritatis nemo quas commodi omnis mollitia numquam nam nulla temporibus, earum repellendus exercitationem vero quod corrupti! Ex, earum. Quam, veritatis.
+            Labore adipisci quaerat numquam quis aliquam at, id a nemo ab fugit. Facere quam, quisquam delectus perspiciatis a voluptatibus illo consequuntur ipsa quidem. Quae et odit, similique porro sed voluptatum.
+            Eius illo similique ipsum veritatis voluptate facere ullam rem aliquam molestias atque dicta exercitationem minima, quae libero magnam fugit fugiat? Voluptatum quos asperiores harum quia eveniet quo reprehenderit? Similique, quibusdam.
+            Et repellendus doloremque at alias dicta exercitationem, soluta fugiat ad, accusantium tenetur animi blanditiis quo eum ullam aut nulla consequuntur hic iste suscipit, veniam quos nobis minima neque! Ea, et.
+            Animi eaque repellendus corrupti blanditiis rem asperiores, laborum enim rerum aperiam quo at voluptatibus ratione, vitae omnis, magnam dolorem. Impedit labore saepe iure, laboriosam eos animi quasi sint dolorum velit?
+        </div>
+    </div>
+</body>
+
+</html>
