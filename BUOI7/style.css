@@ -1,16 +1,70 @@
-h1 {
-    color: red;
-    font-size: 80px;
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    text-transform: capitalize;
 }
-@media screen and (max-width: 700px) {
-    h1 {
-        color: yellow;
-        font-size: 50px;
+.header {
+    background-color: #80C3B5;
+    padding: 20px;
+    text-align: center;
+}
+.section-one {
+    display: flex;
+    
+}
+.section-two{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.content {
+    background-color: #90A9AE;
+    padding: 20px;
+    height: 600px;
+    width: 70%;
+}
+.aside {
+    width: 30%;
+    background-color: #D3C0B7;
+    padding: 20px;
+    height: 600px;
+}
+.box {
+    background-color: #a29f87;
+    padding: 10px;
+    height: 150px;
+    width: 24%;
+    margin-bottom: 10px;
+}
+
+.footer {
+    height: 60px;
+    background-color: #cdb0d0;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    .section-one {
+        flex-wrap: wrap;
+    }
+    .section-two {
+        flex-wrap: wrap;
+    }
+    .box {
+        width: 49%;
+    }
+    
+    .content {
+        width: 100%;
+    }
+    .aside{
+        width: 100%;
     }
 }
-@media screen and (max-width: 300px) {
-    h1 {
-        color: pink;
-        font-size: 50px;
+
+@media screen and (max-width: 468px) {
+    .box{
+        width: 100%;
     }
 }
