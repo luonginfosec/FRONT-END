@@ -347,3 +347,34 @@
     }
 }
 /* End Section 2 */
+
+/* Section 3 */
+.section-three{
+    background: #F0F2F5;
+    padding: 100px 0px;
+}
+.section-three .inner-head {
+    max-width: 630px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+.section-three .inner-head .inner-title {
+    
+    font-size: 60px;
+    color: var(--color-one);
+    margin: 0px;
+}
+.section-three .inner-head .inner-desc {
+    font-size: 20px;
+    margin: 0;
+}
+.section-three .inner-wrap {
+    display: flex;
+}
+.section-three .inner-box {
+    text-align: center;
+    width: calc(100% / 3);
+}
+/* End Section 3 */
