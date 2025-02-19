@@ -1,0 +1,185 @@
+/* Section One */
+.section-one .inner-main {
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    overflow: hidden;
+}
+.section-one .inner-head {
+    background: -webkit-linear-gradient(-30deg, #f57f20, #d62b08 100%);
+    text-align: center;
+    padding: 10px;
+}
+.section-one .inner-head .inner-title {
+    color: #fff;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.section-one .inner-body {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 0 0 10px 10px;
+    -webkit-border-radius: 0 0 10px 10px;
+    -moz-border-radius: 0 0 10px 10px;
+    -ms-border-radius: 0 0 10px 10px;
+    -o-border-radius: 0 0 10px 10px;
+}
+.section-one .card {
+    border: 0;
+}
+.section-one .card-header {
+    background-color: #fff;
+    border: 0;
+    padding: 0;
+}
+.section-one .btn {
+    border: 1px solid transparent;
+    color: orange;
+    text-decoration: none;
+}
+.section-one .btn:focus {
+    box-shadow: none;
+}
+.section-one .card {
+    margin-bottom: 10px;
+}
+.section-one .btn.collapsed{
+    border: 1px solid #ddd;
+    color: #000;
+    margin-bottom: 5px;
+}
+/* End Section One */
+
+
+/* Section Two */
+.section-two{
+    margin-top: 60px;
+}
+.section-two .inner-main {
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    overflow: hidden;
+}
+.section-two .inner-head {
+    background: -webkit-linear-gradient(-30deg, #f57f20, #d62b08 100%);
+    text-align: center;
+    padding: 10px;
+}
+.section-two .inner-head .inner-title {
+    color: #fff;
+    font-weight: 700;
+    font-size: 32px;
+}
+.section-two .inner-desc {
+    color: #fff;
+}
+
+.section-two .inner-body {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 0 0 10px 10px;
+    -webkit-border-radius: 0 0 10px 10px;
+    -moz-border-radius: 0 0 10px 10px;
+    -ms-border-radius: 0 0 10px 10px;
+    -o-border-radius: 0 0 10px 10px;
+}
+.button {
+    background: -webkit-linear-gradient(-30deg, #f57f20, #d62b08 100%);
+    border: 0;
+    color: #fff;
+    font-weight: 600;
+    padding: 10px 20px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+/* End Section Two */
+
+/* Section Three */
+.section-three .container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.modal-form .modal-header {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.modal-form .close {
+    position: absolute;
+    top: -2px;
+    right: -2px;
+    background: #000;
+    opacity: 1;
+    color: #fff;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.modal-form .modal-header .inner-title {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.modal-from .modal-header .inner-desc {
+    margin-bottom: 0;
+}
+.modal-form .button {
+    width: 100%;
+}
+
+.modal-form .modal-header .inner-image {
+    height: 50px;
+    width: auto;
+    margin-bottom: 10px;
+}
+
+.modal-form .modal-content {
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+/* End Section Three */
+
+
+/* Section Four */
+.section-four .inner-head{
+    display: flex;
+    justify-content: space-between;
+}
+/* End Section Four */
+
+.col-xl-20 {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+@media (min-width: 1200px) {
+    .col-xl-20 {
+        -ms-flex: 0 0 20%;
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+}
